@@ -158,7 +158,7 @@ main{
 	/* padding: 20px 40px; */
 }
 .news-box{
-	width:90%;
+	width:70%;
 	height: auto;
 	/* background: green; */
 	margin: auto;
@@ -173,16 +173,11 @@ main{
 .news{
 	width: 100%;
 	border-bottom: 1px solid #ccc;
-    padding: 40px 0 10px;
+	padding: 40px 0;
 }
 .news-a{
 	display: block;
 	color: #333;
-}
-.news-a::after{
-	content: "";
-	display: block;
-	clear: both;
 }
 .new{
 	width: 100%;
@@ -196,8 +191,8 @@ main{
 }
 .more{
 	position: absolute;
-	right:2%;
-	bottom: 5%;
+	right:4%;
+	bottom: -5%;
 	display: inline-block;
 	padding: 8px 10px;
 	border: 1px solid #bbb;
@@ -215,9 +210,9 @@ main{
 	color: #b4b4b4;
 	font-size: 12px;
 	line-height: 18px;
-	position: absolute;
-	left: 20%;
-	bottom: 10%;
+	/*position: absolute;
+	left: 37%;
+	bottom: 10%;*/
 }
 .detail a{
 	display: inline-block;
@@ -230,19 +225,19 @@ main{
 	text-shadow: 1px 1px 3px #969696;
 }
 .img{
-	width: 18%;
+	width: 20%;
 	margin-right: 18px;
 	float: left;
 }
 .img img{
 	display: inline-block;
 	margin-left: 0%;
-    /* margin-top: -8.99267%; */
-    width: 100%;
-    height: 131.474%;
+	/* margin-top: -8.99267%; */
+	width: 100%;
+	height: 131.474%;
 }
 .content{
-	width: 78%;
+	width: 75%;
 	float: left;
 	overflow: hidden;
 }
