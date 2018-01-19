@@ -174,10 +174,10 @@ nav ul a img{
 	color: #000;
 }
 .title-box p{
-	text-align: center;
+	/*text-align: center;*/
 	margin: 8px auto;
 	font-size: 14px;
-	color: #ccc;
+	color: #999;
 }
 .title-xian{
 	display: block;
@@ -196,9 +196,12 @@ nav ul a img{
 	border-bottom: 1px solid #ccc;
 	padding: 15px 15px 8px;
 	display: flex;
-	justify-content: space-between;
+	/*justify-content: space-between;*/
 	font-size: 14px;
 	line-height: 1.4;
+}
+.author{
+	padding-left: 2%;
 }
 /* 标题结束 */
 /* 资讯 */
@@ -210,7 +213,7 @@ main{
 	/* padding: 20px 40px; */
 }
 .about-box{
-	width:66%;
+	width:52%;
 	height: auto;
 	/* background: green; */
 	margin: auto;
