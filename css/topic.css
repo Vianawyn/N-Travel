@@ -7,7 +7,7 @@ html,body{
 header{
 	width: 100%;
 	height: 100%;
-	/* background:blue; */
+	background:blue;
 	position: relative;
 }
 .banner-box{
@@ -150,162 +150,174 @@ nav ul a img{
 	font-size: 20px;
 }
 /* 导航结束 */
-/* 旅行资讯 */
+/* 标题 */
+.title-box{
+	width: 52%;
+	padding: 5px;
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+.yhs{
+	margin-top:20px;
+}
+.title-box h1{
+	margin-bottom: 8px;
+	text-align: center;
+	font-size: 24px;
+	color: #000;
+}
+.title-box p{
+	text-align: center;
+	margin: 8px auto;
+	font-size: 14px;
+	color: #ccc;
+}
+.title-xian{
+	display: block;
+	margin: 10px auto;
+	max-width: calc(100% - (2 * 5px));
+	height: 2px;
+}
+.title-box .newst{
+	margin-bottom: 2%;
+	text-align: center;
+	/*font-size: 24px;*/
+	color: #000;
+}
+.detial{
+	color: #999;
+	border-bottom: 1px solid #ccc;
+	padding: 15px 15px 8px;
+	display: flex;
+	justify-content: space-between;
+	font-size: 14px;
+	line-height: 1.4;
+}
+/* 标题结束 */
+/* 资讯 */
 main{
 	width: 100%;
 	height: auto;
 	background: #fff;
-	/* padding: 20px 40px; */
-}
-.news-box{
-	width:90%;
-	height: auto;
-	/* background: green; */
-	margin: auto;
+	margin-bottom: 3% ;
 }
 .new-box{
-	display: table;
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    table-layout: fixed;
+	width: 70%;
+	height:auto;
+	margin:0 auto;
+	padding: 2%;
 }
-.news{
-	width: 100%;
-	border-bottom: 1px solid #ccc;
-    padding: 40px 0;
-}
-.news-a{
-	display: block;
-	color: #333;
-}
-.new{
-	width: 100%;
-	height: 100%;
-	position: relative;
-}
-.new::after{
-	content: "";
-	display: block;
-	clear: both;
-}
-.times{
-	float: left;
-    /* width: 200px; */
-    text-align: right;
-    padding-right: 2%;
-}
-.items h2{
-	font-size: 46px;  /* 32 */
-	line-height: 100%;
-    margin: auto;
-    text-align: inherit;
-    color: #333;
-}
-.items p{
-	margin-top: 5px;
-    font-size: 14px;
-    color: #999;
-    line-height: 100%;
-}
-.author{
-	position: absolute;
-	right:2%;
-	bottom: 2%;
-	color:#999;
-	font-size: 12px;
-}
-.img{
-	width: 20%;
-	margin-right: 18px;
-	float: left;
-}
-.img img{
-	display: inline-block;
-	margin-left: 0%;
-    /* margin-top: -8.99267%; */
-    width: 100%;
-    height: 131.474%;
+.new_title{
+	color: #000;
+	font-size: 24px;
+    margin-top: 2%;
+	margin-bottom: 6%;
 }
 .content{
-	width: 60%;
-	float: left;
-	overflow: hidden;
-}
-.news-title{
-	font-size: 18px;
-	margin-bottom: 8px;
-	overflow: hidden;
-	white-space: nowrap;
-	text-overflow: ellipsis;
-
-}
-.news-a:hover .news-title{
-	color: #325cc7;
-}
-.news-con{
-	height: auto;
-	min-height: 60px;
-	font-size: 14px;
-	margin-top: 8px;
-	margin-bottom: 8px;
-	transition: all 0.3s;
-	padding-top: 5px;
-	overflow: hidden;
-	/* white-space: nowrap; */
-	text-overflow: ellipsis;
-}
-.news-a:hover .news-con{
-	border-left: 2px solid #ccc;
-	padding-left: 10px;
-}
-.yema-box{
-	width: 100%;
-	margin: 50px auto 100px;
-}
-.yema{
-	width: 600px;
 	margin: 0 auto;
+	border: 1px solid #E5E5E5;
 }
-.yema::after{
-	content: "";
+.liuyanban{
+    padding: 10%;
+    background: url("../img/f_editor_94fd854 .jpg") repeat;
+}
+.content ul{
+	background: #fff;
+	margin: 0 auto;
+	vertical-align: top;
+}
+.content ul li{
+	width: 100%;
+	display: flex;
+    border-bottom: 1px solid #E1E4E6;
+    background: #fafbfc;
+}
+.content ul li:last-child{
+    border-bottom:none;
+}
+.img_box{
+    padding: 2%;
+}
+.content ul li img{
 	display: block;
-	clear: both;
+	width: 70px;
+	height: 70px;
 }
-.yema li{
-	width: auto;
-    padding: 6px;
-    float: left;
+.user{
+	flex: 1;
+	min-height: 60px;
+    background: #fff;
 }
-.yema li a{
-	display: block;
+.user p{
+	width: 100%;
+    min-height: 125px;
+    line-height: 24px;
+    font-size: 14px;
+    word-wrap: break-word;
+    overflow: hidden;
+	margin: 5px auto;
+	border-radius: 3px;
+    padding: 10px 15px 7px 20px;
+	color: #333;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
-.click{
-	position: relative;
-    float: left;
-    padding: 4px 8px;
-    margin-left: -1px;
-    line-height: 1.42857143;
-    color: #666;
-    text-decoration: none;
-    background-color: #fff;
-    min-width: 34px;
-    text-align: center;
+/*资讯结束*/
+
+/*留言板*/
+.yhs-box{
+	width: 100%;
+	height:auto;
+	opacity: .8;
 }
-.Onclick{
-	background-color: #0072c2;
+.info{
+	margin: 0 auto;
+	border-bottom: 0;
+}
+.formBox{
+	width: 539px;
+	border: 1px solid #b6b6b6;
+	background: #fff;
+	margin: 0 auto;
+	vertical-align: top;
+	border-radius: 3px;
+}
+.title,.textarea,.submit{
+	width: 537px;
+	font: 16px/18px arial;
+	line-height: 22px;
+	padding: 5px;
+	border: 0;
+	outline: 0;
+}
+.title{
+	height: 30px;
+}
+.textarea{
+	font-size: 14px;
+}
+.tips{
+	width: 539px;
+	margin: 0 auto;
+	font: 12px/18px arial;
+	line-height: 22px;
+	color: #999;
+	text-align: right;
+}
+.tips span{
+	font-size: 14px;
+	color: #000;
+}
+.submit{
+	margin: 0 auto;
+	background: #3f89ec;
 	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	border-radius: 5%;
+	display: block;
 }
-.yema li a span::before{
-	border: 1px solid #ddd;
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-}
-/* 旅行资讯结束 */
+/*留言板结束*/
 /* 底部 */
 footer{
 	width: 100%;

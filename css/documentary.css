@@ -1,3 +1,9 @@
+/*
+* @Author: lenovo
+* @Date:   2017-11-24 13:38:48
+* @Last Modified by:   lenovo
+* @Last Modified time: 2017-12-18 23:20:53
+*/
 @import url('base.css');
 html,body{
 	height: 100%;
@@ -7,7 +13,7 @@ html,body{
 header{
 	width: 100%;
 	height: 100%;
-	/* background:blue; */
+	background:blue;
 	position: relative;
 }
 .banner-box{
@@ -150,162 +156,89 @@ nav ul a img{
 	font-size: 20px;
 }
 /* 导航结束 */
-/* 旅行资讯 */
+/* 标题 */
+.title-box{
+	width: 52%;
+	padding: 5px;
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+.yhs{
+	margin-top:20px;
+}
+.title-box h1{
+	margin-bottom: 8px;
+	text-align: center;
+	font-size: 24px;
+	color: #000;
+}
+.title-box p{
+	text-align: center;
+	margin: 8px auto;
+	font-size: 14px;
+	color: #ccc;
+}
+.title-xian{
+	display: block;
+	margin: 10px auto;
+	max-width: calc(100% - (2 * 5px));
+	height: 2px;
+}
+.title-box .newst{
+	margin-bottom: 2%;
+	text-align: center;
+	/*font-size: 24px;*/
+	color: #000;
+}
+.detial{
+	color: #999;
+	border-bottom: 1px solid #ccc;
+	padding: 15px 15px 8px;
+	display: flex;
+	justify-content: space-between;
+	font-size: 14px;
+	line-height: 1.4;
+}
+/* 标题结束 */
+/* 资讯 */
 main{
 	width: 100%;
 	height: auto;
 	background: #fff;
-	/* padding: 20px 40px; */
-}
-.news-box{
-	width:90%;
-	height: auto;
-	/* background: green; */
-	margin: auto;
+	margin-bottom: 3% ;
 }
 .new-box{
-	display: table;
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    table-layout: fixed;
+	width: 60%;
+	height:auto;
+	/*background: blue;*/
+	margin:0 auto;
+	padding: 2%;
 }
-.news{
-	width: 100%;
-	border-bottom: 1px solid #ccc;
-    padding: 40px 0;
-}
-.news-a{
-	display: block;
-	color: #333;
+.title{
+	color: #000;
+	font-size: 24px;
+	margin-bottom: 2%;
 }
 .new{
 	width: 100%;
-	height: 100%;
-	position: relative;
+	height:auto;
 }
-.new::after{
-	content: "";
-	display: block;
-	clear: both;
-}
-.times{
-	float: left;
-    /* width: 200px; */
-    text-align: right;
-    padding-right: 2%;
-}
-.items h2{
-	font-size: 46px;  /* 32 */
-	line-height: 100%;
-    margin: auto;
-    text-align: inherit;
-    color: #333;
-}
-.items p{
-	margin-top: 5px;
-    font-size: 14px;
-    color: #999;
-    line-height: 100%;
-}
-.author{
-	position: absolute;
-	right:2%;
-	bottom: 2%;
-	color:#999;
-	font-size: 12px;
-}
-.img{
-	width: 20%;
-	margin-right: 18px;
-	float: left;
-}
-.img img{
-	display: inline-block;
-	margin-left: 0%;
-    /* margin-top: -8.99267%; */
-    width: 100%;
-    height: 131.474%;
+.topic{
+	padding: 2% 2% 0 2%;
+	list-style-type: square;
+	line-height: 38px;
 }
 .content{
-	width: 60%;
-	float: left;
-	overflow: hidden;
-}
-.news-title{
-	font-size: 18px;
-	margin-bottom: 8px;
-	overflow: hidden;
-	white-space: nowrap;
-	text-overflow: ellipsis;
-
-}
-.news-a:hover .news-title{
-	color: #325cc7;
-}
-.news-con{
-	height: auto;
-	min-height: 60px;
+	display: block;
 	font-size: 14px;
-	margin-top: 8px;
-	margin-bottom: 8px;
-	transition: all 0.3s;
-	padding-top: 5px;
-	overflow: hidden;
-	/* white-space: nowrap; */
-	text-overflow: ellipsis;
+	color: #000;
+	border-bottom: 1px dashed #999;
+	padding-bottom: 1%;
 }
-.news-a:hover .news-con{
-	border-left: 2px solid #ccc;
-	padding-left: 10px;
+.topic:last-child .content{
+	border-bottom: 0;
 }
-.yema-box{
-	width: 100%;
-	margin: 50px auto 100px;
-}
-.yema{
-	width: 600px;
-	margin: 0 auto;
-}
-.yema::after{
-	content: "";
-	display: block;
-	clear: both;
-}
-.yema li{
-	width: auto;
-    padding: 6px;
-    float: left;
-}
-.yema li a{
-	display: block;
-}
-.click{
-	position: relative;
-    float: left;
-    padding: 4px 8px;
-    margin-left: -1px;
-    line-height: 1.42857143;
-    color: #666;
-    text-decoration: none;
-    background-color: #fff;
-    min-width: 34px;
-    text-align: center;
-}
-.Onclick{
-	background-color: #0072c2;
-	color: #fff;
-}
-.yema li a span::before{
-	border: 1px solid #ddd;
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-}
-/* 旅行资讯结束 */
 /* 底部 */
 footer{
 	width: 100%;
