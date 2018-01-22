@@ -185,9 +185,10 @@ nav ul a img{
 /* 标题结束 */
 /* 关于我们 */
 main{
-	width: 100%;
+	width: 75%;
 	height: auto;
 	background: #fff;
+	margin:0 auto;
 	margin-bottom: 80px;
 	/* padding: 20px 40px; */
 }
@@ -209,7 +210,8 @@ main{
 	text-align: justify;
 	word-wrap: break-word;
 	color: inherit;
-	font-size: 14px;
+	font-size: 15px;
+	text-indent: 2em;
 }
 .duanjiange{
 	padding-top: 3.3333333333333335%;
@@ -227,7 +229,7 @@ main{
 	float: left;
 }
 .qywh a{
-	width: 600px;
+	width: 100%;
 	height: 300px;
 	display: block;
 	background: url('../img/qywh.jpg') no-repeat center center;
@@ -299,6 +301,9 @@ main{
 .get-right{
 	padding: 5px;
 	/* background: #f6f6f6; */
+}
+main .container {
+	width: 100%;
 }
 #contact-form input{
 	height: 55px;
